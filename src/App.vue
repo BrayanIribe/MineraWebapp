@@ -136,7 +136,7 @@ export default {
     setTimeout(() => {
       this.showLoginModal = true;
     }, 10);
-    setInterval(this.actualizar, 5000);
+    setInterval(this.actualizar, 2000);
   },
 };
 </script>
